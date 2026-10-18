@@ -1,0 +1,3395 @@
+{
+  "routes": 224,
+  "broken_links": [],
+  "broken_assets": [],
+  "broken_fragments": [],
+  "browser": [
+    {
+      "route": "/",
+      "title": "Tandvård som gör skillnad – med dig i centrum | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/pressrelease/",
+      "title": "Press release | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/vart-hallbarhetsarbete/",
+      "title": "Vårt hållbarhetsarbete | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/nyheter/",
+      "title": "Nyheter | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/priser/",
+      "title": "Priser | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/financial-reports/",
+      "title": "Financial reports | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/del-av-dentalum/",
+      "title": "Bli en del av Dentalum | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/",
+      "title": "Behandlingar | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/patientsakerhet/",
+      "title": "Patientsäkerhet | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/dentalum-som-arbetsgivare/",
+      "title": "Dentalum som arbetsgivare | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/dentalums-dataskyddspolicy/",
+      "title": "Dentalums dataskyddspolicy | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/team/",
+      "title": "Teamet på Dentalum | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/investor-reports/",
+      "title": "Investor reports | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/vara-kliniker/",
+      "title": "Våra kliniker | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/om-oss/",
+      "title": "Vilka är Dentalum? | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/financial-calendar/",
+      "title": "Financial calendar | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kontakt/",
+      "title": "Kontakt | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/sidkarta/",
+      "title": "Press release | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/vilka-ar-vi/",
+      "title": "Vilka är Dentalum? | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/dentalums-cookiepolicy/",
+      "title": "Dentalums cookiepolicy | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/",
+      "title": "Våra kliniker | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/pressrelease/page/4/",
+      "title": "Press release | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/pressrelease/page/3/",
+      "title": "Press release | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/pressrelease/page/5/",
+      "title": "Press release | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/pressrelease/page/2/",
+      "title": "Press release | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/nyheter/dentalum-expanderar-i-norrbotten/",
+      "title": "Dentalum expanderar i Norrbotten | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/nyheter/tiotandvard-nya-regler-fran-2026/",
+      "title": "Tiotandvård – Nya regler från 2026 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/nyheter/dentalum-far-ivo-tillstand/",
+      "title": "Dentalum Tandvård får tillstånd från IVO | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/nyheter/city-dental-blir-dentalum-tandvard-drottninggatan/",
+      "title": "City Dental blir Dentalum Tandvård Drottninggatan | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/tandreglering/",
+      "title": "Tandreglering | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/lagning-och-fyllning/",
+      "title": "Lagning och fyllning | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/akut-tandvard-atvidaberg/",
+      "title": "Akut tandvård i Åtvidaberg | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/basundersokning/",
+      "title": "Basundersökning | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/skalfasader/",
+      "title": "Skalfasader | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/tandimplantat/",
+      "title": "Tandimplantat | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/tandstensborttagning/",
+      "title": "Tandstensborttagning | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/tandhygienist/",
+      "title": "Behandling hos tandhygienist | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/tandblekning/",
+      "title": "Tandblekning | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/tandskydd/",
+      "title": "Tandskydd | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/akut-tandvard-ornskoldsvik/",
+      "title": "Akut tandvård i Örnsköldsvik | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/skalfasader-stockholm/",
+      "title": "Skalfasader i Stockholm | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/estetisk-tandvard/",
+      "title": "Estetisk tandvård | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/bettskena/",
+      "title": "Bettskena | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/specialisttandvard/",
+      "title": "Specialisttandvård | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/airflow/",
+      "title": "Airflow | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/kronor-och-broar/",
+      "title": "Kronor och broar | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/rotfyllning/",
+      "title": "Rotfyllning | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/tandblekning-stockholm/",
+      "title": "Tandblekning i Stockholm | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/allmantandvard/",
+      "title": "Allmäntandvård | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/kirurgi/",
+      "title": "Kirurgi | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/tandhygienst-stockholm/",
+      "title": "Tandhygienst i Stockholm | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/tandextraktion/",
+      "title": "Tandextraktion | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/tandimplantat-stockholm/",
+      "title": "Tandimplantat i Stockholm | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/akut-tandvard-stockholm/",
+      "title": "Akut tandvård i Stockholm | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/bettfysiologi/",
+      "title": "Bettfysiologi | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/tandreglering-stockholm/",
+      "title": "Tandreglering i Stockholm | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/akut-tandvard-ornskoldsvik/+46660213808/",
+      "title": "Akut tandvård i Örnsköldsvik | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/behandlingar/allmantandvard/basundersokning/",
+      "title": "Basundersökning | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision-tag/tandlakare/",
+      "title": "Dentalum förvärvar TandCity Sweden AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision-tag/dentalum/",
+      "title": "Dentalum förvärvar TandCity Sweden AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision-tag/tandcity/",
+      "title": "Dentalum förvärvar TandCity Sweden AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision-tag/q2/",
+      "title": "Dentalum Operations AB (publ) publishes half year report, January -June 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision-tag/dental-care/",
+      "title": "Dentalum acquires TandCity Sweden AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision-tag/dentalum-operations-ab-publ/",
+      "title": "Dentalum förvärvar TandCity Sweden AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision-tag/dentistry/",
+      "title": "Dentalum acquires TandCity Sweden AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision-tag/tandvard/",
+      "title": "Dentalum förvärvar TandCity Sweden AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision-tag/dentist/",
+      "title": "Dentalum acquires TandCity Sweden AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision-tag/dental-market/",
+      "title": "Dentalum Operations AB (publ) publishes half year report, January -June 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/author/admin/",
+      "title": "Tandvård som gör skillnad – med dig i centrum | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/author/ida/",
+      "title": "Tandvård som gör skillnad – med dig i centrum | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/category/nyheter/",
+      "title": "Nyheter | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-partners-up-with-erik-lennartsson-through-the-acquisition-of-dentalakademin/",
+      "title": "Dentalum partners up with Erik Lennartsson through the acquisition of Dentalakademin | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-announces-change-in-executive-managment/",
+      "title": "Dentalum announces change in Executive Managment | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-q4-interim-report/",
+      "title": "Dentalum Operations AB (publ.) Q4 Interim Report | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-tredje-kvartalet-2021/",
+      "title": "Dentalum Operations AB (publ) publicerar delårsrapport för tredje kvartalet 2021 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-considers-new-issue-of-shares-and-presents-financial-targets-for-the-group-as-well-as-plans-for-public-listing/",
+      "title": "Dentalum considers new issue of shares and presents financial targets for the group as well as plans for public listing | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-fortsatter-tillvaxtresan-genom-forvarvet-av-tandlakare-rikard-wennberg-i-karlstad/",
+      "title": "Dentalum fortsätter tillväxtresan genom förvärvet av Tandläkare Rikard Wennberg i Karlstad | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-group-ab-has-successfully-completed-a-directed-new-share-issue-raising-proceeds-of-approximately-sek-170-million/",
+      "title": "Dentalum Group AB has successfully completed a directed new share issue raising proceeds of approximately SEK 170 million | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-interim-report-for-the-first-quarter-2022/",
+      "title": "Dentalum Operations AB (publ) publishes interim report for the first quarter 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-stanga-tandklinik-och-svarta-tandklinik-i-ostergotland/",
+      "title": "Dentalum förvärvar Stångå Tandklinik och Svartå Tandklinik i Östergötland | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-forsta-kvartalet-2022/",
+      "title": "Dentalum Operations AB (publ) publicerar delårsrapport för första kvartalet 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-meddelar-forandring-i-ledningsgruppen/",
+      "title": "Dentalum meddelar förändring i ledningsgruppen | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-novo-dental/",
+      "title": "Dentalum acquires NOVO DENTAL | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-starker-styrelsen-med-mikael-lonn-som-ny-styrelseledamot/",
+      "title": "Dentalum stärker styrelsen med Mikael Lönn som ny styrelseledamot | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-overvager-emission-av-ytterligare-foretagsobligationer-om-cirka-100-miljoner-kronor-och-aktieagartillskott-om-35-miljoner-kronor-tillfors/",
+      "title": "Dentalum överväger emission av ytterligare företagsobligationer om cirka 100 miljoner kronor och aktieägartillskott om 35 miljoner kronor tillförs | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-fjarde-kvartalet-2021/",
+      "title": "Dentalum Operations AB (publ) publicerar delårsrapport för fjärde kvartalet 2021 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-fjarde-kvartalet-och-bokslutskommunike-2022/",
+      "title": "Dentalum Operations AB (publ) publicerar delårsrapport för fjärde kvartalet och bokslutskommuniké 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/noel-abdayem-blir-en-del-av-dentalums-investeringskommitte/",
+      "title": "Noel Abdayem blir en del av Dentalums investeringskommitté | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-stanga-tandklinik-and-svarta-tandklinik-in-ostergotland/",
+      "title": "Dentalum acquires Stångå Tandklinik and Svartå Tandklinik in Östergötland | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-starker-teamet-infor-kommande-notering/",
+      "title": "Dentalum stärker teamet inför kommande notering | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-andra-kvartalet-och-for-perioden-januari-juni-2023/",
+      "title": "Dentalum Operations AB (publ) publicerar delårsrapport för andra kvartalet och för perioden januari-juni 2023 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-half-year-report-january-june-2022/",
+      "title": "Dentalum Operations AB (publ) publishes half year report, January -June 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/roosgruppen-ny-majoritetsagare-i-dentalum/",
+      "title": "RoosGruppen ny majoritetsägare i Dentalum | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/resolutions-by-dentalums-annual-general-meeting-2022/",
+      "title": "Resolutions by Dentalums Annual General Meeting 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-solna-dental-and-solna-dental-arenatandlakarna/",
+      "title": "Dentalum acquires Solna Dental and Solna Dental Arenatandläkarna | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/beslut-fran-dentalums-arsstamma-2022/",
+      "title": "Beslut från Dentalums årsstämma 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-novo-dental/",
+      "title": "Dentalum förvärvar NOVO DENTAL | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-maximum-sek-600000000-senior-secured-callable-fixed-rate-bonds-2020-2023-with-isin-se0013914462/",
+      "title": "Dentalum Operations AB (publ) maximum SEK 600,000,000 senior secured callable fixed rate bonds 2020/2023 with ISIN SE0013914462 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-recruits-a-chief-dental-officer-and-medical-manager/",
+      "title": "Dentalum recruits a Chief Dental Officer and Medical Manager | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-andra-kvartalet-2022/",
+      "title": "Dentalum Operations AB (publ) publicerar delårsrapport för andra kvartalet 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-tandcenter-umea-and-tandcenter-lovanger/",
+      "title": "Dentalum acquires Tandcenter Umeå and Tandcenter Lövånger | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-tandcenter-umea-och-tandcenter-lovanger/",
+      "title": "Dentalum förvärvar Tandcenter Umeå och Tandcenter Lövånger | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-has-a-positive-view-on-refinancing-possibilities/",
+      "title": "Dentalum has a positive view on refinancing possibilities | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/the-chief-operating-officer-leaves-dentalum-operations-ab-publ/",
+      "title": "The Chief Operating Officer leaves Dentalum Operations AB (publ) | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-strengthens-the-team-for-the-upcoming-ipo/",
+      "title": "Dentalum strengthens the team for the upcoming IPO | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-is-considering-raising-capital/",
+      "title": "Dentalum is considering raising capital | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-interim-report-for-the-fourth-quarter-2021/",
+      "title": "Dentalum Operations AB (publ) publishes Interim report for the fourth quarter 2021 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-the-fourth-quarter-and-year-end-report-2022/",
+      "title": "Dentalum Operations AB (publ) publishes the fourth quarter and year-end report 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-publicerar-arsredovisningen-for-2022/",
+      "title": "Dentalum publicerar årsredovisningen för 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-group-ab-har-framgangsrikt-genomfort-en-nyemission-och-tillfors-harigenom-ca-153-miljoner-kronor/",
+      "title": "Dentalum Group AB har framgångsrikt genomfört en nyemission och tillförs härigenom ca 153 miljoner kronor | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-estetikcenter-goteborg-ab/",
+      "title": "Dentalum acquires Estetikcenter Göteborg AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-the-first-quarter-report-2023/",
+      "title": "Dentalum Operations AB (publ) publishes the first quarter report 2023 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-q3-interim-report/",
+      "title": "Dentalum Operations AB (publ) publishes Q3 Interim Report | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-successfully-issues-subsequent-bonds-of-sek-100m/",
+      "title": "Dentalum successfully issues subsequent bonds of SEK 100m | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-ingar-langsiktigt-finansiellt-partnerskap-med-danske-bank-och-fortsatter-sin-expansion-i-sverige/",
+      "title": "Dentalum ingår långsiktigt finansiellt partnerskap med Danske Bank och fortsätter sin expansion i Sverige | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-tandcity-sweden-ab/",
+      "title": "Dentalum förvärvar TandCity Sweden AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-obligationsprospekt-i-samband-med-att-bolagets-foretagsobligation-upptas-till-handel-pa-nasdaq-stockholm/",
+      "title": "Dentalum Operations AB (publ) publicerar obligationsprospekt i samband med att bolagets företagsobligation upptas till handel på Nasdaq Stockholm | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-emitterar-framgangsrikt-ytterligare-obligationer-om-100-miljoner-kronor/",
+      "title": "Dentalum emitterar framgångsrikt ytterligare obligationer om 100 miljoner kronor | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-group-ab-har-framgangsrikt-genomfort-en-riktad-nyemission-och-tillfors-harigenom-cirka-170-miljoner-sek/",
+      "title": "Dentalum Group AB har framgångsrikt genomfört en riktad nyemission och tillförs härigenom cirka 170 miljoner SEK | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/rattelse-dentalum-operations-ab-publ-delarsrapport-for-andra-kvartalet-2022/",
+      "title": "Rättelse: Dentalum Operations AB (publ), delårsrapport för andra kvartalet 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-is-contemplating-a-subsequent-bond-issue-of-approximately-sek-100-million-and-will-receive-sek-35-million-through-an-equity-injection/",
+      "title": "Dentalum is contemplating a subsequent bond issue of approximately SEK 100 million and will receive SEK 35 million through an equity injection | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-interim-report-second-quarter-and-january-june-2023/",
+      "title": "Dentalum Operations AB (publ) Interim report second quarter and January-June 2023 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-etablerar-sig-i-jamtland-forvarvar-cura-tandvard-i-ostersund/",
+      "title": "Dentalum etablerar sig i Jämtland – förvärvar Cura Tandvård i Östersund | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-ingar-ett-term-sheet-med-nordisk-storbank-for-refinansiering-av-bolagets-seniora-obligation/",
+      "title": "Dentalum ingår ett term sheet med nordisk storbank för refinansiering av bolagets seniora obligation | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-q3-rapport/",
+      "title": "Dentalum Operations AB (publ) Q3 rapport | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-tareqs-klinik-ab-in-hultsfred/",
+      "title": "Dentalum acquires Tareqs Klinik AB in Hultsfred | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-skelleftea-tandvard-ab/",
+      "title": "Dentalum förvärvar Skellefteå Tandvård AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-publishes-the-annual-report-for-2020/",
+      "title": "Dentalum publishes the Annual Report for 2020 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-abcare-tandvard-ab/",
+      "title": "Dentalum acquires ABCARE Tandvård AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-skelleftea-tandvard-ab/",
+      "title": "Dentalum acquires Skellefteå Tandvård AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-q1-interim-report/",
+      "title": "Dentalum Operations AB (publ.) publishes Q1 Interim Report | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/esmaeilzadeh-holding-ab-increases-its-shareholding-in-dentalum-group-ab/",
+      "title": "Esmaeilzadeh Holding AB increases its shareholding in Dentalum Group AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-today-the-annual-report-for-2021/",
+      "title": "Financial reports | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-karlatandlakarna-and-malarklinken/",
+      "title": "Dentalum acquires Karlatandläkarna and Mälarklinken | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/noel-abdayem-joins-dentalums-investment-committee/",
+      "title": "Noel Abdayem joins Dentalum’s Investment Committee | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-starker-ledningsgruppen-med-en-ny-coo/",
+      "title": "Dentalum stärker ledningsgruppen med en ny COO | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-overvager-att-genomfora-en-kapitalanskaffning/",
+      "title": "Dentalum överväger att genomföra en kapitalanskaffning | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-karlatandlakarna-och-malarkliniken/",
+      "title": "Dentalum förvärvar Karlatandläkarna och Mälarkliniken | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-q2-interim-report/",
+      "title": "Dentalum Operations AB (publ) publishes Q2 Interim Report | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-strengthens-the-management-team-with-a-new-coo/",
+      "title": "Dentalum strengthens the management team with a new COO | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/resolutions-by-dentalums-annual-general-meeting-2023/",
+      "title": "Resolutions by Dentalums Annual General Meeting 2023 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/beslut-fran-dentalums-arsstamma-2023/",
+      "title": "Beslut från Dentalums årsstämma 2023 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/operativ-chef-lamnar-dentalum-operations-ab-publ/",
+      "title": "Operativ Chef lämnar Dentalum Operations AB (publ) | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/esmaeilzadeh-holding-ab-utokar-sitt-innehav-i-dentalum-group-ab/",
+      "title": "Esmaeilzadeh Holding AB utökar sitt innehav i Dentalum Group AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-estetikcenter-goteborg-ab/",
+      "title": "Dentalum förvärvar Estetikcenter Göteborg AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-rekryterar-en-cheftandlakare-och-odontologiskt-ansvarig/",
+      "title": "Dentalum rekryterar en Cheftandläkare och Odontologiskt Ansvarig | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-publicerar-arsredovisningen-for-2020/",
+      "title": "Dentalum publicerar årsredovisningen för 2020 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-signs-a-facility-agreement-with-danske-bank-for-refinancing-of-the-companys-senior-bond/",
+      "title": "Dentalum signs a facility agreement with Danske Bank for refinancing of the Company's senior bond | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-och-skapa-i-ett-unikt-samarbete-for-framtidens-tandvard/",
+      "title": "Dentalum och SKaPa i ett unikt samarbete för framtidens tandvård | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-abcare-tandvard-ab/",
+      "title": "Dentalum förvärvar ABCARE Tandvård AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-delarsrapport-for-fjarde-kvartalet-2020/",
+      "title": "Dentalum Operations AB (publ.) delårsrapport för fjärde kvartalet 2020 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-swedish-dental/",
+      "title": "Dentalum acquires Swedish Dental | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-the-first-quarter-report-2023-2/",
+      "title": "Dentalum Operations AB (publ) publishes the first quarter report 2023 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-prospectus-for-the-admission-to-trading-of-its-senior-secured-fixed-rate-bonds-on-nasdaq-stockholm/",
+      "title": "Dentalum Operations AB (publ) publishes prospectus for the admission to trading of its Senior Secured Fixed Rate Bonds on Nasdaq Stockholm | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-idag-arsredovisning-for-2021/",
+      "title": "Financial reports | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-swedish-dental/",
+      "title": "Dentalum förvärvar Swedish Dental | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-starker-investerarkollektiv-for-den-fortsatta-tillvaxtresan/",
+      "title": "Dentalum stärker investerarkollektiv för den fortsatta tillväxtresan | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-publishes-annual-report-for-2022/",
+      "title": "Dentalum publishes Annual Report for 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-enters-into-a-term-sheet-with-a-leading-nordic-bank-to-refinance-the-companys-senior-bond/",
+      "title": "Dentalum enters into a term sheet with a leading Nordic bank to refinance the Company's Senior bond | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/correction-dentalum-operations-ab-publ-half-year-report-january-june-2022/",
+      "title": "Correction: Dentalum Operations AB (publ) half year report, January -June 2022 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-ser-positivt-pa-refinansieringsmojligheter/",
+      "title": "Dentalum ser positivt på refinansieringsmöjligheter | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-strengthens-the-board-of-directors-with-mikael-lonn-as-new-board-member/",
+      "title": "Dentalum strengthens the Board of Directors with Mikael Lönn as new board member | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-forsta-kvartalet-2021/",
+      "title": "Dentalum Operations AB (publ.) publicerar delårsrapport för första kvartalet 2021 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/forsta-vetenskapliga-granskningen-av-privat-tandvard-i-sverige-dentalum-lanserar-nytt-verktyg-for-systematisk-kvalitetsuppfoljning/",
+      "title": "Första vetenskapliga granskningen av privat tandvård i Sverige – Dentalum lanserar nytt verktyg för systematisk kvalitetsuppföljning | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-solna-dental-och-solna-dental-arenatandlakarna/",
+      "title": "Dentalum förvärvar Solna Dental och Solna Dental Arenatandläkarna | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-tareqs-klinik-ab-i-hultsfred/",
+      "title": "Dentalum förvärvar Tareqs Klinik AB i Hultsfred | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-tandlakarhuset-enkoping/",
+      "title": "Dentalum acquires Tandläkarhuset Enköping | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-tandcity-sweden-ab/",
+      "title": "Dentalum acquires TandCity Sweden AB | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-tandlakarhuset-enkoping/",
+      "title": "Dentalum förvärvar Tandläkarhuset Enköping | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-undertecknar-laneavtal-med-danske-bank-for-refinansiering-av-bolagets-seniora-obligation/",
+      "title": "Dentalum undertecknar låneavtal med Danske Bank för refinansiering av bolagets seniora obligation | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-overvager-nyemission-av-aktier-och-offentliggor-finansiella-mal-for-gruppen-samt-noteringsplaner/",
+      "title": "Dentalum överväger nyemission av aktier och offentliggör finansiella mål för gruppen samt noteringsplaner | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-maximum-sek-600000000-senior-secured-callable-fixed-rate-bonds-2020-2023-med-isin-se0013914462/",
+      "title": "Dentalum Operations AB (publ) maximum SEK 600,000,000 senior secured callable fixed rate bonds 2020/2023 med ISIN SE0013914462 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-q3-report/",
+      "title": "Dentalum Operations AB (publ) Q3 report | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-andra-kvartalet-2021/",
+      "title": "Dentalum Operations AB (publ) publicerar delårsrapport för andra kvartalet 2021 | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/cision/dentalum-inleder-samarbete-med-erik-lennartsson-genom-forvarvet-av-dentalakademin/",
+      "title": "Dentalum inleder samarbete med Erik Lennartsson genom förvärvet av Dentalakademin | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/halland/",
+      "title": "Tandläkare Halland | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/vasterbotten/",
+      "title": "Tandläkare Västerbotten | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/jonkoping/",
+      "title": "Tandläkare Jönköping | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/vastra-gotaland/",
+      "title": "Tandläkare Västra Götaland | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/dalarna/",
+      "title": "Tandläkare Dalarna | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/jamtland/",
+      "title": "Tandläkare Jämtland | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/vasternorrland/",
+      "title": "Tandläkare Västernorrland | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/skane/",
+      "title": "Tandläkare Skåne | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/varmland/",
+      "title": "Tandläkare Värmland | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/",
+      "title": "Tandläkare Stockholm | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/uppsala/",
+      "title": "Tandläkare Uppsala | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/norrbotten/",
+      "title": "Tandläkare Norrbotten | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/kalmar/",
+      "title": "Tandläkare Kalmar | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/ostergotland/",
+      "title": "Tandläkare Östergötland | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/halland/tandlakarna-stenberg/",
+      "title": "Tandläkarna Stenberg | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/vasterbotten/tandcenter-umea/",
+      "title": "Tandcenter Umeå | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/vasterbotten/skelleftea-tandvard/",
+      "title": "Skellefteå Tandvård | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/vasterbotten/lovanger-tandvard/",
+      "title": "Lövånger Tandvård | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/jonkoping/vesalis-dental/",
+      "title": "Vesalis Dental | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/vastra-gotaland/estetikcenter-goteborg/",
+      "title": "Estetikcenter | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/vastra-gotaland/boras-tandvard/",
+      "title": "Borås Tandvård | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/vastra-gotaland/kungsfors-tandvard/",
+      "title": "Kungsfors Tandvård | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/dalarna/gylle-tandvard/",
+      "title": "Gylle Tandvård | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/dalarna/ludvikatandlakarna/",
+      "title": "Ludvikatandläkarna | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/jamtland/cura-tandvard/",
+      "title": "Cura Tandvård | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/jamtland/tandlakare-annelie-alenius/",
+      "title": "Tandläkare Annelie Alenius | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/vasternorrland/dentalum-ornskoldsvik/",
+      "title": "Dentalum Örnsköldsvik | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/skane/tandcity/",
+      "title": "TandCity | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/skane/alfa-tandvardskliniken/",
+      "title": "Alfa Tandvårdskliniken | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/varmland/tandlakare-wennberg/",
+      "title": "Tandläkare Wennberg | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/city-dental/",
+      "title": "Dentalum Drottninggatan | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/malarkliniken/",
+      "title": "Mälarkliniken | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/swedish-dental/",
+      "title": "Swedish Dental | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/solna-dental-huvudstatandlakarna/",
+      "title": "Solna Dental – Huvudstatandläkarna | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/dentalum-drottninggatan/",
+      "title": "Dentalum Drottninggatan | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/novo-dental/",
+      "title": "Novo Dental | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/solna-dental-arenatandlakarna/",
+      "title": "Solna Dental – Arenatandläkarna | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/dentalakademin/",
+      "title": "Dentalakademin | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/nacka-tandvardsteam/",
+      "title": "Nacka Tandvårdsteam | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/sthlm-dental-sodermalm/",
+      "title": "Sthlm Dental Södermalm | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/karlatandlakarna/",
+      "title": "Karlatandläkarna | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/uppsala/tandlakarhuset-enkoping/",
+      "title": "Tandläkarhuset Enköping | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/norrbotten/kungsbrotandlakarna-boden/",
+      "title": "Kungsbrotandläkarna – Boden | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/norrbotten/kungsbrotandlakarna-savast/",
+      "title": "Kungsbrotandläkarna – Sävast | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/kalmar/hultsfreds-tandvard-tors-plan/",
+      "title": "Hultsfreds Tandvård – Tors Plan | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/kalmar/hultsfreds-tandvard-oskargatan/",
+      "title": "Hultsfreds Tandvård – Oskargatan | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/ostergotland/svarta-tandklinik/",
+      "title": "Svartå Tandklinik | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/ostergotland/dentalum-atvidaberg/",
+      "title": "Dentalum Åtvidaberg | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    },
+    {
+      "route": "/kliniker/ostergotland/stanga-tandklinik/",
+      "title": "Stångå Tandklinik | Dentalum",
+      "h1": 1,
+      "overflow": false,
+      "images": [],
+      "light": "light",
+      "mobileOverflow": false,
+      "dark": "dark",
+      "darkOverflow": false
+    }
+  ],
+  "errors": [],
+  "interactions": {
+    "clinic_search": 11,
+    "clinic_empty": true,
+    "clinic_reset": 35,
+    "region_filter": 2,
+    "faq_open": 1,
+    "faq_expand_all": 6,
+    "faq_collapse_all": 0,
+    "team_search": 1,
+    "team_empty": "Inga medarbetare matchar sökningen.",
+    "gallery_open": true,
+    "gallery_next": "2 / 17",
+    "treatment_empty": "Välj en behandling för att läsa mer.",
+    "treatment_navigation": true,
+    "mobile_open": true,
+    "mobile_escape": true,
+    "booking_open": true,
+    "booking_links": 3,
+    "booking_escape": true,
+    "theme_persisted": "dark",
+    "reduced_motion": "none",
+    "animated_faq_open_close": true,
+    "larger_text": true
+  },
+  "tablet": [
+    {
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "route": "/pressrelease/",
+      "overflow": false
+    },
+    {
+      "route": "/vart-hallbarhetsarbete/",
+      "overflow": false
+    },
+    {
+      "route": "/nyheter/",
+      "overflow": false
+    },
+    {
+      "route": "/priser/",
+      "overflow": false
+    },
+    {
+      "route": "/financial-reports/",
+      "overflow": false
+    },
+    {
+      "route": "/del-av-dentalum/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/",
+      "overflow": false
+    },
+    {
+      "route": "/patientsakerhet/",
+      "overflow": false
+    },
+    {
+      "route": "/dentalum-som-arbetsgivare/",
+      "overflow": false
+    },
+    {
+      "route": "/dentalums-dataskyddspolicy/",
+      "overflow": false
+    },
+    {
+      "route": "/team/",
+      "overflow": false
+    },
+    {
+      "route": "/investor-reports/",
+      "overflow": false
+    },
+    {
+      "route": "/vara-kliniker/",
+      "overflow": false
+    },
+    {
+      "route": "/om-oss/",
+      "overflow": false
+    },
+    {
+      "route": "/financial-calendar/",
+      "overflow": false
+    },
+    {
+      "route": "/kontakt/",
+      "overflow": false
+    },
+    {
+      "route": "/sidkarta/",
+      "overflow": false
+    },
+    {
+      "route": "/vilka-ar-vi/",
+      "overflow": false
+    },
+    {
+      "route": "/dentalums-cookiepolicy/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/",
+      "overflow": false
+    },
+    {
+      "route": "/pressrelease/page/4/",
+      "overflow": false
+    },
+    {
+      "route": "/pressrelease/page/3/",
+      "overflow": false
+    },
+    {
+      "route": "/pressrelease/page/5/",
+      "overflow": false
+    },
+    {
+      "route": "/pressrelease/page/2/",
+      "overflow": false
+    },
+    {
+      "route": "/nyheter/dentalum-expanderar-i-norrbotten/",
+      "overflow": false
+    },
+    {
+      "route": "/nyheter/tiotandvard-nya-regler-fran-2026/",
+      "overflow": false
+    },
+    {
+      "route": "/nyheter/dentalum-far-ivo-tillstand/",
+      "overflow": false
+    },
+    {
+      "route": "/nyheter/city-dental-blir-dentalum-tandvard-drottninggatan/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/tandreglering/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/lagning-och-fyllning/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/akut-tandvard-atvidaberg/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/basundersokning/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/skalfasader/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/tandimplantat/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/tandstensborttagning/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/tandhygienist/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/tandblekning/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/tandskydd/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/akut-tandvard-ornskoldsvik/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/skalfasader-stockholm/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/estetisk-tandvard/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/bettskena/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/specialisttandvard/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/airflow/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/kronor-och-broar/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/rotfyllning/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/tandblekning-stockholm/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/allmantandvard/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/kirurgi/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/tandhygienst-stockholm/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/tandextraktion/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/tandimplantat-stockholm/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/akut-tandvard-stockholm/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/bettfysiologi/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/tandreglering-stockholm/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/akut-tandvard-ornskoldsvik/+46660213808/",
+      "overflow": false
+    },
+    {
+      "route": "/behandlingar/allmantandvard/basundersokning/",
+      "overflow": false
+    },
+    {
+      "route": "/cision-tag/tandlakare/",
+      "overflow": false
+    },
+    {
+      "route": "/cision-tag/dentalum/",
+      "overflow": false
+    },
+    {
+      "route": "/cision-tag/tandcity/",
+      "overflow": false
+    },
+    {
+      "route": "/cision-tag/q2/",
+      "overflow": false
+    },
+    {
+      "route": "/cision-tag/dental-care/",
+      "overflow": false
+    },
+    {
+      "route": "/cision-tag/dentalum-operations-ab-publ/",
+      "overflow": false
+    },
+    {
+      "route": "/cision-tag/dentistry/",
+      "overflow": false
+    },
+    {
+      "route": "/cision-tag/tandvard/",
+      "overflow": false
+    },
+    {
+      "route": "/cision-tag/dentist/",
+      "overflow": false
+    },
+    {
+      "route": "/cision-tag/dental-market/",
+      "overflow": false
+    },
+    {
+      "route": "/author/admin/",
+      "overflow": false
+    },
+    {
+      "route": "/author/ida/",
+      "overflow": false
+    },
+    {
+      "route": "/category/nyheter/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-partners-up-with-erik-lennartsson-through-the-acquisition-of-dentalakademin/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-announces-change-in-executive-managment/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-q4-interim-report/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-tredje-kvartalet-2021/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-considers-new-issue-of-shares-and-presents-financial-targets-for-the-group-as-well-as-plans-for-public-listing/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-fortsatter-tillvaxtresan-genom-forvarvet-av-tandlakare-rikard-wennberg-i-karlstad/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-group-ab-has-successfully-completed-a-directed-new-share-issue-raising-proceeds-of-approximately-sek-170-million/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-interim-report-for-the-first-quarter-2022/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-stanga-tandklinik-och-svarta-tandklinik-i-ostergotland/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-forsta-kvartalet-2022/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-meddelar-forandring-i-ledningsgruppen/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-novo-dental/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-starker-styrelsen-med-mikael-lonn-som-ny-styrelseledamot/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-overvager-emission-av-ytterligare-foretagsobligationer-om-cirka-100-miljoner-kronor-och-aktieagartillskott-om-35-miljoner-kronor-tillfors/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-fjarde-kvartalet-2021/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-fjarde-kvartalet-och-bokslutskommunike-2022/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/noel-abdayem-blir-en-del-av-dentalums-investeringskommitte/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-stanga-tandklinik-and-svarta-tandklinik-in-ostergotland/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-starker-teamet-infor-kommande-notering/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-andra-kvartalet-och-for-perioden-januari-juni-2023/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-half-year-report-january-june-2022/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/roosgruppen-ny-majoritetsagare-i-dentalum/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/resolutions-by-dentalums-annual-general-meeting-2022/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-solna-dental-and-solna-dental-arenatandlakarna/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/beslut-fran-dentalums-arsstamma-2022/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-novo-dental/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-maximum-sek-600000000-senior-secured-callable-fixed-rate-bonds-2020-2023-with-isin-se0013914462/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-recruits-a-chief-dental-officer-and-medical-manager/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-andra-kvartalet-2022/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-tandcenter-umea-and-tandcenter-lovanger/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-tandcenter-umea-och-tandcenter-lovanger/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-has-a-positive-view-on-refinancing-possibilities/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/the-chief-operating-officer-leaves-dentalum-operations-ab-publ/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-strengthens-the-team-for-the-upcoming-ipo/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-is-considering-raising-capital/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-interim-report-for-the-fourth-quarter-2021/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-the-fourth-quarter-and-year-end-report-2022/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-publicerar-arsredovisningen-for-2022/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-group-ab-har-framgangsrikt-genomfort-en-nyemission-och-tillfors-harigenom-ca-153-miljoner-kronor/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-estetikcenter-goteborg-ab/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-the-first-quarter-report-2023/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-q3-interim-report/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-successfully-issues-subsequent-bonds-of-sek-100m/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-ingar-langsiktigt-finansiellt-partnerskap-med-danske-bank-och-fortsatter-sin-expansion-i-sverige/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-tandcity-sweden-ab/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-obligationsprospekt-i-samband-med-att-bolagets-foretagsobligation-upptas-till-handel-pa-nasdaq-stockholm/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-emitterar-framgangsrikt-ytterligare-obligationer-om-100-miljoner-kronor/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-group-ab-har-framgangsrikt-genomfort-en-riktad-nyemission-och-tillfors-harigenom-cirka-170-miljoner-sek/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/rattelse-dentalum-operations-ab-publ-delarsrapport-for-andra-kvartalet-2022/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-is-contemplating-a-subsequent-bond-issue-of-approximately-sek-100-million-and-will-receive-sek-35-million-through-an-equity-injection/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-interim-report-second-quarter-and-january-june-2023/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-etablerar-sig-i-jamtland-forvarvar-cura-tandvard-i-ostersund/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-ingar-ett-term-sheet-med-nordisk-storbank-for-refinansiering-av-bolagets-seniora-obligation/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-q3-rapport/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-tareqs-klinik-ab-in-hultsfred/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-skelleftea-tandvard-ab/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-publishes-the-annual-report-for-2020/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-abcare-tandvard-ab/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-skelleftea-tandvard-ab/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-q1-interim-report/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/esmaeilzadeh-holding-ab-increases-its-shareholding-in-dentalum-group-ab/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-today-the-annual-report-for-2021/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-karlatandlakarna-and-malarklinken/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/noel-abdayem-joins-dentalums-investment-committee/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-starker-ledningsgruppen-med-en-ny-coo/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-overvager-att-genomfora-en-kapitalanskaffning/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-karlatandlakarna-och-malarkliniken/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-q2-interim-report/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-strengthens-the-management-team-with-a-new-coo/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/resolutions-by-dentalums-annual-general-meeting-2023/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/beslut-fran-dentalums-arsstamma-2023/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/operativ-chef-lamnar-dentalum-operations-ab-publ/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/esmaeilzadeh-holding-ab-utokar-sitt-innehav-i-dentalum-group-ab/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-estetikcenter-goteborg-ab/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-rekryterar-en-cheftandlakare-och-odontologiskt-ansvarig/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-publicerar-arsredovisningen-for-2020/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-signs-a-facility-agreement-with-danske-bank-for-refinancing-of-the-companys-senior-bond/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-och-skapa-i-ett-unikt-samarbete-for-framtidens-tandvard/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-abcare-tandvard-ab/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-delarsrapport-for-fjarde-kvartalet-2020/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-swedish-dental/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-the-first-quarter-report-2023-2/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publishes-prospectus-for-the-admission-to-trading-of-its-senior-secured-fixed-rate-bonds-on-nasdaq-stockholm/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-idag-arsredovisning-for-2021/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-swedish-dental/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-starker-investerarkollektiv-for-den-fortsatta-tillvaxtresan/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-publishes-annual-report-for-2022/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-enters-into-a-term-sheet-with-a-leading-nordic-bank-to-refinance-the-companys-senior-bond/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/correction-dentalum-operations-ab-publ-half-year-report-january-june-2022/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-ser-positivt-pa-refinansieringsmojligheter/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-strengthens-the-board-of-directors-with-mikael-lonn-as-new-board-member/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-forsta-kvartalet-2021/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/forsta-vetenskapliga-granskningen-av-privat-tandvard-i-sverige-dentalum-lanserar-nytt-verktyg-for-systematisk-kvalitetsuppfoljning/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-solna-dental-och-solna-dental-arenatandlakarna/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-tareqs-klinik-ab-i-hultsfred/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-tandlakarhuset-enkoping/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-acquires-tandcity-sweden-ab/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-forvarvar-tandlakarhuset-enkoping/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-undertecknar-laneavtal-med-danske-bank-for-refinansiering-av-bolagets-seniora-obligation/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-overvager-nyemission-av-aktier-och-offentliggor-finansiella-mal-for-gruppen-samt-noteringsplaner/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-maximum-sek-600000000-senior-secured-callable-fixed-rate-bonds-2020-2023-med-isin-se0013914462/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-q3-report/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-operations-ab-publ-publicerar-delarsrapport-for-andra-kvartalet-2021/",
+      "overflow": false
+    },
+    {
+      "route": "/cision/dentalum-inleder-samarbete-med-erik-lennartsson-genom-forvarvet-av-dentalakademin/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/halland/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/vasterbotten/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/jonkoping/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/vastra-gotaland/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/dalarna/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/jamtland/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/vasternorrland/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/skane/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/varmland/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/uppsala/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/norrbotten/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/kalmar/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/ostergotland/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/halland/tandlakarna-stenberg/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/vasterbotten/tandcenter-umea/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/vasterbotten/skelleftea-tandvard/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/vasterbotten/lovanger-tandvard/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/jonkoping/vesalis-dental/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/vastra-gotaland/estetikcenter-goteborg/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/vastra-gotaland/boras-tandvard/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/vastra-gotaland/kungsfors-tandvard/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/dalarna/gylle-tandvard/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/dalarna/ludvikatandlakarna/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/jamtland/cura-tandvard/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/jamtland/tandlakare-annelie-alenius/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/vasternorrland/dentalum-ornskoldsvik/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/skane/tandcity/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/skane/alfa-tandvardskliniken/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/varmland/tandlakare-wennberg/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/city-dental/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/malarkliniken/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/swedish-dental/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/solna-dental-huvudstatandlakarna/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/dentalum-drottninggatan/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/novo-dental/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/solna-dental-arenatandlakarna/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/dentalakademin/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/nacka-tandvardsteam/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/sthlm-dental-sodermalm/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/stockholm/karlatandlakarna/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/uppsala/tandlakarhuset-enkoping/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/norrbotten/kungsbrotandlakarna-boden/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/norrbotten/kungsbrotandlakarna-savast/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/kalmar/hultsfreds-tandvard-tors-plan/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/kalmar/hultsfreds-tandvard-oskargatan/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/ostergotland/svarta-tandklinik/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/ostergotland/dentalum-atvidaberg/",
+      "overflow": false
+    },
+    {
+      "route": "/kliniker/ostergotland/stanga-tandklinik/",
+      "overflow": false
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+All original website files, photos, source, reports and screenshots are retained. Raw audit HTML snapshots are compressed together in audit/source-snapshots.tar.xz. Extract that archive into audit/ before regenerating with build.py. Serving the prebuilt website with npm start needs no extraction.
