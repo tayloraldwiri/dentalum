@@ -11,25 +11,11 @@
   const mix = (a, b, t) => a.map((v, i) => Math.round(v + (b[i] - v) * t));
   const rgb = values => `rgb(${values.join(',')})`;
   function shade(base, level) { return mix(base, [251, 249, 241], level / 3 * .9); }
-  const shadeAnimations = new WeakMap();
-  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   function paintModel(selector, color) {
-    const node = lab.querySelector(`${selector} [data-enamel-tone]`);
-    const previous = shadeAnimations.get(node);
-    if (previous) cancelAnimationFrame(previous.frame);
-    const from = previous ? previous.current : color.slice();
-    const state = { current: from.slice(), frame: 0 };
-    shadeAnimations.set(node, state);
-    const start = performance.now();
-    function frame(now) {
-      const t = reducedMotion.matches ? 1 : Math.min(1, (now - start) / 400);
-      const eased = t * t * (3 - 2 * t);
-      state.current = from.map((v, i) => v + (color[i] - v) * eased);
-      const [r,g,b] = state.current.map(v => v / 255);
-      node.setAttribute('values', `${r} 0 0 0 0 0 ${g} 0 0 0 0 0 ${b} 0 0 0 0 0 1 0`);
-      if (t < 1) state.frame = requestAnimationFrame(frame);
+    for (const stop of lab.querySelectorAll(`${selector} [data-tone]`)) {
+      const tone = stop.dataset.tone;
+      stop.setAttribute('stop-color', rgb(tone === 'light' ? mix(color, [255, 255, 255], .3) : tone === 'edge' ? mix(color, [145, 144, 133], .24) : color));
     }
-    frame(previous ? performance.now() : start + 400);
   }
   function updateShade() {
     const base = palettes[$('#lab-start-shade').value], level = Number($('#lab-whiten-level').value);

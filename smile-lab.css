@@ -13,6 +13,7 @@
 .lab-viewport { position: relative; width: 100%; aspect-ratio: 800/420; border-radius: 12px; background: radial-gradient(ellipse at center,#34463c,#11251e 75%); touch-action: pan-y; overflow: hidden; user-select: none; }
 .lab-dental-model { display: block; width: 100%; height: auto; }
 .lab-after { position: absolute; inset: 0; clip-path: inset(0 0 0 var(--split)); }
+.lab-dental-model [data-tone] { transition: stop-color .45s ease; }
 .lab-split { position: absolute; top: 8%; bottom: 8%; left: var(--split); width: 1px; background: #d6f8e0cc; filter: drop-shadow(0 0 6px #a6e9c8); pointer-events: none; }
 .lab-split span { position: absolute; top: calc(50% - 17px); left: -17px; display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid #b1ddc4; border-radius: 50%; background: #183d30; color: #e9f9ed; font-size: 16px; }
 .lab-model-labels { position: absolute; inset: auto 16px 9px; display: flex; justify-content: space-between; gap: 20px; color: #e3eee2; font-size: 8px; letter-spacing: .04em; pointer-events: none; }
