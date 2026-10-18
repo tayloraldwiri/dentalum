@@ -33,22 +33,10 @@
 .mouth-legend i { width: 7px; height: 7px; border-radius: 50%; }
 .legend-active { background: #58ac91; }
 .legend-hover { background: #cfac5b; }
-.mouth-information { padding: 35px; border-left: 1px solid var(--line); }
-.mouth-information .eyebrow { font-size: 9px; color: var(--muted); margin-bottom: 16px; }
-.mouth-information h3 { font-size: clamp(28px,2.7vw,39px); margin-bottom: 17px; }
-.mouth-information>p { font-size: 12px; line-height: 1.8; }
 .mouth-select-label { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-block: 1px solid var(--line); color: var(--muted); font-size: 11px; }
 #mouth-tooth { max-width: 140px; padding: 7px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 5px; font-size: 12px; }
-.mouth-step { padding: 22px 0 12px; min-height: 140px; }
-.mouth-step>span { color: var(--muted); font-size: 10px; letter-spacing: .12em; }
-.mouth-step h4 { margin: 8px 0; font-size: 21px; letter-spacing: -.025em; }
-.mouth-step p { font-size: 11px; line-height: 1.7; margin: 0; }
 .mouth-scrub-label { display: flex; justify-content: space-between; color: var(--muted); font-size: 10px; }
 #mouth-progress { display: block; width: 100%; margin: 12px 0 20px; cursor: pointer; accent-color: var(--accent); }
-.mouth-playback { display: flex; gap: 8px; }
-.mouth-playback .button { flex: 1; min-height: 44px; padding: 11px 12px; font-size: 11px; gap: 10px; }
-.mouth-treatment-link { display: flex; justify-content: space-between; border-bottom: 1px solid var(--line); padding: 20px 0 12px; margin-top: 10px; font-size: 12px; }
-.mouth-information>.text-link { margin-top: 10px; font-size: 11px; }
 .mouth-bottom { border-top: 1px solid var(--line); background: var(--bg); padding: 20px 28px; }
 .mouth-bottom p { margin: 0; font-size: 10px; max-width: 900px; }
 .mouth-fallback-links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 12px; font-size: 11px; text-decoration: underline; text-underline-offset: 3px; }
@@ -76,4 +64,18 @@
 @media (max-width: 700px) {
   .mouth-toolbar button[data-view=reset] { font-size: 0; }
   .mouth-toolbar button[data-view=reset]::before { content: "↺"; font-size: 16px; }
+}
+
+.mouth-layout { display: block; }
+.mouth-viewport { height: clamp(330px, 42vw, 560px); flex: none; }
+.mouth-compact-controls { display: flex; align-items: center; gap: 24px; padding: 0 24px 18px; }
+.mouth-compact-controls .mouth-select-label { border: 0; padding: 0; flex: 0 0 auto; }
+.mouth-compact-controls .mouth-scrub-label { flex: 1; align-items: center; gap: 15px; white-space: nowrap; }
+.mouth-compact-controls #mouth-progress { margin: 0; min-width: 60px; }
+#mouth-progress-value { min-width: 35px; color: var(--muted); font-size: 10px; }
+@media (max-width: 600px) {
+  .mouth-compact-controls { flex-wrap: wrap; gap: 12px; padding-inline: 18px; }
+  .mouth-compact-controls .mouth-select-label { width: 100%; }
+  .mouth-compact-controls .mouth-scrub-label { font-size: 0; gap: 0; }
+  .mouth-toolbar>div { flex-wrap: wrap; }
 }

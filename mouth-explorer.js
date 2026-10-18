@@ -91,15 +91,14 @@ function initialize() {
   const brush=new THREE.Group();const brushHead=new THREE.Mesh(new THREE.BoxGeometry(.35,.12,.22),new THREE.MeshStandardMaterial({color:0xb9d9c9,roughness:.4}));brush.add(brushHead);
   for(let i=0;i<4;i++)for(let j=0;j<3;j++){const bristle=new THREE.Mesh(new THREE.CylinderGeometry(.012,.012,.14,5),new THREE.MeshStandardMaterial({color:0xf3f1df}));bristle.position.set((i-1.5)*.075,.11,(j-1)*.065);brush.add(bristle);}
   const handle=new THREE.Mesh(new THREE.CylinderGeometry(.04,.06,1.1,12),new THREE.MeshStandardMaterial({color:0x5c9e8a}));handle.rotation.z=Math.PI/2;handle.position.x=.65;brush.add(handle);model.add(brush);brush.visible=false;
-  let selected=records.find(t=>t.number===44), hovered=null, treatment='implant', progress=0, playing=false, currentStep=-1, visible=false, animationVisible=false, contextLost=false;
+  let selected=records.find(t=>t.number===44), hovered=null, treatment='implant', progress=0, playing=false,  visible=false, animationVisible=false, contextLost=false;
   let yaw=.15,pitch=.16,radius=8.4,targetYaw=yaw,targetPitch=pitch,targetRadius=radius;
   const focus=new THREE.Vector3(0,0,.7),targetFocus=focus.clone(),raycaster=new THREE.Raycaster(),pointer=new THREE.Vector2();
   const clamp=THREE.MathUtils.clamp, smooth=t=>{t=clamp(t,0,1);return t*t*(3-2*t);};
   const stageSpan=(p,a,b)=>smooth((p-a)/(b-a));
-  function setPlaying(value){playing=value;$('#mouth-play').replaceChildren(document.createTextNode(value?'Pausa animation Ⅱ':'Spela animation ▷'));$('#mouth-play').setAttribute('aria-pressed',String(value));const viewPlay=$('#mouth-view-play');viewPlay.textContent=value?'Ⅱ':'▷';viewPlay.setAttribute('aria-pressed',String(value));viewPlay.setAttribute('aria-label',value?'Pausa animation':'Spela animation');viewPlay.title=value?'Pausa animation':'Spela animation';}
+  function setPlaying(value){playing=value;const viewPlay=$('#mouth-view-play');viewPlay.textContent=value?'Ⅱ':'▷';viewPlay.setAttribute('aria-pressed',String(value));viewPlay.setAttribute('aria-label',value?'Pausa animation':'Spela animation');viewPlay.title=value?'Pausa animation':'Spela animation';}
   function updateCopy(){
     const data=treatments[treatment],step=Math.min(3,Math.floor(progress*4));
-    if(step!==currentStep){currentStep=step;$('#mouth-step-number').textContent=`0${step+1} / 04`;$('#mouth-step-title').textContent=data.steps[step][0];$('#mouth-step-description').textContent=data.steps[step][1];}
     $('#mouth-progress').value=String(Math.floor(progress*100));$('#mouth-progress-value').textContent=`${Math.floor(progress*100)} %`;
     $('#mouth-progress').setAttribute('aria-valuetext',`${Math.floor(progress*100)} procent, ${data.steps[step][0]}`);
   }
@@ -109,20 +108,19 @@ function initialize() {
     if(treatment==='bridge'&&(record.index===0||record.index===15))record=records.find(r=>r.upper===record.upper&&r.index===(record.index===0?1:14));
     hovered=null;selected=record;$('#mouth-tooth').value=String(record.number);$('#mouth-tooth-label').textContent=`Tand ${record.number}`;
     targetFocus.copy(record.base).multiplyScalar(.28);targetFocus.y=0;targetFocus.z=Math.max(.6,targetFocus.z);
-    targetYaw=clamp(record.base.x*.12,-.5,.5);targetPitch=.2;targetRadius=7.9;progress=0;currentStep=-1;setPlaying(!reducedMotion.matches);updateCopy();
+    targetYaw=clamp(record.base.x*.12,-.5,.5);targetPitch=.2;targetRadius=7.9;progress=0;setPlaying(!reducedMotion.matches);updateCopy();
   }
   function setTreatment(key){
     if(!treatments[key])return;
-    treatment=key;root.dataset.treatment=key;currentStep=-1;
+    treatment=key;root.dataset.treatment=key;
     for(const button of root.querySelectorAll('[data-treatment]'))button.setAttribute('aria-pressed',String(button.dataset.treatment===key));
-    const data=treatments[key];$('#mouth-title').textContent=data.title;$('#mouth-description').textContent=data.description;$('#mouth-treatment-link').href=`/behandlingar/${data.link}/`;$('#mouth-treatment-link').firstChild.textContent=`Läs mer om ${data.label} `;
     for(const option of $('#mouth-tooth').options)option.disabled=key==='bridge'&&[18,28,48,38].includes(Number(option.value));
     setSelected(selected);$('#mouth-view-label').textContent=key==='implant'?'Implantat · förenklad genomskärning':'Interaktiv behandlingsmodell';
   }
   for(const button of root.querySelectorAll('.mouth-tabs button'))button.addEventListener('click',()=>setTreatment(button.dataset.treatment));
   $('#mouth-tooth').addEventListener('change',e=>setSelected(records.find(r=>r.number===Number(e.target.value))));
-  for(const button of [$('#mouth-play'),$('#mouth-view-play')])button.addEventListener('click',()=>{if(progress>=1)progress=0;setPlaying(!playing);updateCopy();});
-  $('#mouth-replay').addEventListener('click',()=>{progress=0;currentStep=-1;setPlaying(true);updateCopy();});
+  $('#mouth-view-play').addEventListener('click',()=>{if(progress>=1)progress=0;setPlaying(!playing);updateCopy();});
+  $('#mouth-replay').addEventListener('click',()=>{progress=0;setPlaying(true);updateCopy();});
   $('#mouth-progress').addEventListener('input',e=>{progress=Number(e.target.value)/100;setPlaying(false);updateCopy();});
   function resetView(){targetYaw=.15;targetPitch=.16;targetRadius=8.4;targetFocus.set(0,0,.7);}
   for(const button of root.querySelectorAll('[data-view]'))button.addEventListener('click',()=>{const action=button.dataset.view;if(action==='left')targetYaw-=.3;if(action==='right')targetYaw+=.3;if(action==='in')targetRadius=clamp(targetRadius-.7,5,12);if(action==='out')targetRadius=clamp(targetRadius+.7,5,12);if(action==='reset')resetView();});
