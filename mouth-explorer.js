@@ -37,42 +37,77 @@ function initialize() {
   }
   const model = new THREE.Group(); scene.add(model);
   const records = [], picks = [], gums = [], plaques = [];
-  const enamel = new THREE.MeshPhysicalMaterial({ color: 0xf5eee0, roughness: .24, metalness: 0, clearcoat: .7, clearcoatRoughness: .2 });
-  const gumMaterial = new THREE.MeshPhysicalMaterial({ color: 0xb86f78, roughness: .48, clearcoat: .2, transparent: true, opacity: 1, side: THREE.DoubleSide });
+  const enamel = new THREE.MeshPhysicalMaterial({ color: 0xf5eee0, roughness: .22, metalness: 0, clearcoat: .4, clearcoatRoughness: .24, vertexColors: true });
+  const gumMaterial = new THREE.MeshPhysicalMaterial({ color: 0xc78187, roughness: .55, clearcoat: .12, vertexColors: false, transparent: true, opacity: 1, side: THREE.DoubleSide });
   const metal = new THREE.MeshStandardMaterial({ color: 0xa8bac4, metalness: .82, roughness: .28 });
   const coreMaterial = new THREE.MeshStandardMaterial({ color: 0xd8bd83, roughness: .45 });
   const highlight = new THREE.Color(0x56ad90), hoverColor = new THREE.Color(0xd6af55), black = new THREE.Color(0x000000);
   const ivory = new THREE.Color(0xf5eee0), selectedEnamel = new THREE.Color(0x8fd9bc), hoveredEnamel = new THREE.Color(0xe5cb87);
   const sphereGeometry = new THREE.SphereGeometry(1, 20, 14);
-  function toothGeometry(front) {
-    const positions = [], indices = [], rings = 18, segments = 32;
-    const width = front ? .205 : .25, depth = front ? .135 : .235, height = front ? .64 : .53;
-    for (let j = 0; j <= rings; j++) {
-      const t = j / rings;
-      const profile = t < .22 ? .65 + t * 1.3 : t < .72 ? .94 + Math.sin((t-.22)*Math.PI)*.08 : Math.sqrt(Math.max(0,1-((t-.72)/.28)**2));
-      for (let k = 0; k <= segments; k++) {
-        const a = k / segments * Math.PI * 2;
-        const superellipse = v => Math.sign(v)*Math.abs(v)**.68;
-        const cusp = !front && t>.7 ? .025*Math.cos(a*4)*Math.sin((t-.7)/.3*Math.PI) : 0;
-        positions.push(superellipse(Math.cos(a))*width*profile, t*height+cusp, superellipse(Math.sin(a))*depth*profile);
-        if (j < rings && k < segments) { const n = j*(segments+1)+k; indices.push(n,n+segments+1,n+1,n+1,n+segments+1,n+segments+2); }
+  // Lofted crowns with separate incisal edges and sculpted occlusal surfaces.
+  function toothGeometry(kind, upper) {
+    const spec = kind === 1 ? [upper ? .22 : .18,.135,.66] : kind === 2 ? [upper ? .185 : .165,.14,.62] : kind === 3 ? [.205,.18,.68] : kind < 6 ? [.225,.22,.57] : [.275,.255,.52];
+    const [width,depth,height] = spec, positions = [], colors = [], indices = [], segments = 40, sideRings = 22, capRings = 12;
+    const front = kind < 4;
+    const section = (value, power=.78) => Math.sign(value)*Math.abs(value)**power;
+    function top(x,z) {
+      if (kind < 3) return height + .008*Math.cos(x*8) - .025*x*x;
+      if (kind === 3) return height + .095*Math.exp(-x*x*5) - .018*z*z;
+      const peaks = kind < 6 ? [[0,-.5],[0,.5]] : [[-.53,-.5],[.53,-.5],[-.53,.5],[.53,.5]];
+      return height - .024 + peaks.reduce((v,[a,b]) => v+.075*Math.exp(-((x-a)**2+(z-b)**2)/.18),0) - .012*Math.exp(-x*x*45);
+    }
+    function vertex(x,y,z,t) {
+      positions.push(x,y,z);
+      // Warm cervical enamel grades into a cooler incisal edge.
+      const neck = Math.exp(-t*6), edge = Math.max(0,(t-.8)*5);
+      colors.push(1-.025*edge, .985-.055*neck, .945-.10*neck+.025*edge);
+    }
+    for (let j=0;j<=sideRings+capRings;j++) {
+      const cap = j>sideRings, t = Math.min(1,j/sideRings), radial = cap ? 1-(j-sideRings)/capRings : 1;
+      const profile = .68 + .34*Math.sin(t*Math.PI*.8);
+      const tipDepth = front ? 1-.74*t**3 : 1;
+      for(let k=0;k<=segments;k++) {
+        const a=k/segments*Math.PI*2, nx=section(Math.cos(a)) * radial, nz=section(Math.sin(a)) * radial;
+        const x=nx*width*profile, z=nz*depth*profile*tipDepth;
+        const ridge=.003*Math.cos(a*12)*Math.sin(t*Math.PI);
+        const y=cap ? top(nx,nz) : t*(height + (top(nx,nz)-height)*t**5);
+        vertex(x*(1+ridge),y,z,t);
+        if(j<sideRings+capRings && k<segments) {const n=j*(segments+1)+k;indices.push(n,n+segments+1,n+1,n+1,n+segments+1,n+segments+2);}
       }
     }
-    const geometry = new THREE.BufferGeometry(); geometry.setAttribute('position',new THREE.Float32BufferAttribute(positions,3)); geometry.setIndex(indices); geometry.computeVertexNormals(); return geometry;
+    const geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));geometry.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));geometry.setIndex(indices);geometry.computeVertexNormals();return geometry;
   }
-  const frontGeometry = toothGeometry(true), backGeometry = toothGeometry(false);
+  function gumGeometry(upper) {
+    // Build the path around Y=0 to keep its Frenet frames numerically stable.
+    const sign=upper?1:-1, points=[];
+    for(let i=0;i<=80;i++) {
+      const a=(-106+i*212/80)*Math.PI/180;
+      points.push(new THREE.Vector3(Math.sin(a)*2.05,0,Math.cos(a)*2.45));
+    }
+    const g=new THREE.TubeGeometry(new THREE.CatmullRomCurve3(points),160,.26,24,false);
+    const positions=g.attributes.position,colors=[];
+    for(let i=0;i<positions.count;i++) {
+      const x=positions.getX(i),y=positions.getY(i),z=positions.getZ(i);
+      const angle=Math.atan2(x/2.05,z/2.45),phase=(angle*180/Math.PI+100)/(200/15)*Math.PI*2;
+      const local=y*sign,crest=Math.max(0,-local/.26);
+      positions.setY(i,sign*.99+y*1.1+sign*.025*Math.cos(phase)*crest**4);
+      const edge=crest*.07;colors.push(.94+edge,.83+edge,.84+edge);
+    }
+    g.setAttribute('color',new THREE.Float32BufferAttribute(colors,3));g.computeVertexNormals();return g;
+  }
+  const crownGeometries = new Map();
   for (const upper of [true,false]) {
-    const gumPoints = [];
-    for (let i = 0; i < 25; i++) { const a = (-105+i*210/24)*Math.PI/180; gumPoints.push(new THREE.Vector3(Math.sin(a)*2.05, upper ? .94 : -.94, Math.cos(a)*2.45)); }
-    const gum = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(gumPoints), 80, .24, 16, false),gumMaterial.clone());model.add(gum);gums.push(gum);
+    const gum = new THREE.Mesh(gumGeometry(upper),gumMaterial.clone());model.add(gum);gums.push(gum);
     for (let i = 0; i < 16; i++) {
       const angle = (-100 + i*200/15)*Math.PI/180;
       const number = upper ? (i<8 ? 18-i : 21+i-8) : (i<8 ? 48-i : 31+i-8);
       const front = i>=5 && i<=10;
       const group = new THREE.Group(); group.position.set(Math.sin(angle)*2.05,upper ? .83 : -.83,Math.cos(angle)*2.45);group.rotation.set(0,angle,upper ? Math.PI : 0);model.add(group);
-      const crown = new THREE.Mesh(front ? frontGeometry : backGeometry,enamel.clone());group.add(crown);picks.push(crown);
+      const kind=number%10, geometryKey=`${kind}-${upper}`;
+      if(!crownGeometries.has(geometryKey))crownGeometries.set(geometryKey,toothGeometry(kind,upper));
+      const crown = new THREE.Mesh(crownGeometries.get(geometryKey),enamel.clone());crown.rotation.y=Math.sin(number*7)*.018;group.add(crown);picks.push(crown);
       const core = new THREE.Mesh(new THREE.CylinderGeometry(.12,.16,.35,20),coreMaterial);core.position.y=.17;core.visible=false;group.add(core);
-      const collar = new THREE.Mesh(sphereGeometry,gum.material);collar.scale.set(.28,.14,.25);collar.position.y=-.06;group.add(collar);picks.push(collar);
+      const collar = new THREE.Mesh(sphereGeometry,gum.material);collar.scale.set(.28,.14,.25);collar.position.y=-.06;collar.visible=false;group.add(collar);
       const screw = new THREE.Group();
       const shaft = new THREE.Mesh(new THREE.CylinderGeometry(.095,.065,.65,20),metal);shaft.position.y=-.23;screw.add(shaft);
       for(let j=0;j<9;j++){const thread=new THREE.Mesh(new THREE.TorusGeometry(.095,.022,6,20),metal);thread.rotation.x=Math.PI/2;thread.position.y=-.5+j*.066;screw.add(thread);}
@@ -83,7 +118,7 @@ function initialize() {
       plaqueGroup.visible=false;plaques.push(plaqueGroup);
       const ring=new THREE.Mesh(new THREE.TorusGeometry(.3,.018,8,40),new THREE.MeshBasicMaterial({color:0x58ac91}));ring.rotation.x=Math.PI/2;ring.position.y=.03;group.add(ring);
       const record={number,index:i,upper,front,group,crown,core,collar,screw,connector,ring,plaque:plaqueGroup,base:group.position.clone(),angle};
-      crown.userData.record=record;collar.userData.record=record;records.push(record);
+      crown.userData.record=record;ring.userData.record=record;picks.push(ring);collar.userData.record=record;records.push(record);
     }
   }
   const bridgeConnectors = new THREE.Group();model.add(bridgeConnectors);
@@ -169,7 +204,7 @@ function initialize() {
       const color=r===hovered?hoverColor:active?highlight:black;
       r.crown.material.color.lerp(r===hovered?hoveredEnamel:active?selectedEnamel:ivory,reducedMotion.matches?1:Math.min(1,dt*9));
       r.crown.material.emissive.lerp(color,reducedMotion.matches?1:Math.min(1,dt*9));r.crown.material.emissiveIntensity=r===hovered?.35:.23;
-      r.collar.material.emissive.lerp(treatment==='clean'?highlight:black,.12);
+
     }
     if(bridgeConnectors.visible){const ordered=neighbours.sort((a,b)=>a.index-b.index);for(let i=0;i<2;i++){const a=ordered[i],b=ordered[i+1],lift=(1-stageSpan(progress,.5,1))*.85,dir=selected.upper?-1:1;const start=a.group.position.clone().add(new THREE.Vector3(0,dir*(.28+lift),0)),end=b.group.position.clone().add(new THREE.Vector3(0,dir*(.28+lift),0));const connector=bridgeConnectors.children[i];connector.position.copy(start).lerp(end,.5);connector.scale.y=start.distanceTo(end);connector.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),end.sub(start).normalize());}}
     if(brush.visible){const index=clamp(Math.floor(progress*32),0,31),next=records[Math.min(31,index+1)],r=records[index];brush.position.copy(r.base).lerp(next.base,progress*32-index);brush.position.y+=r.upper?-.08:.08;brush.position.z+=.3;brush.rotation.set(0,r.angle,Math.sin(progress*180)*.1);}
@@ -177,9 +212,9 @@ function initialize() {
   let lastTime=0;
   function frame(time){
     if(contextLost)return;
-    animationFrame=requestAnimationFrame(frame);const dt=Math.min(.05,(time-lastTime)/1000||.016);lastTime=time;
+    animationFrame=requestAnimationFrame(frame);const elapsed=Math.max(0,(time-lastTime)/1000||.016),dt=Math.min(.05,elapsed);lastTime=time;
     if(!visible||document.hidden)return;
-    if(playing&&animationVisible){progress=Math.min(1,progress+dt/14);if(progress===1)setPlaying(false);updateCopy();}
+    if(playing&&animationVisible){progress=Math.min(1,progress+elapsed/1.8);if(progress===1)setPlaying(false);updateCopy();}
     const blend=reducedMotion.matches?1:1-Math.exp(-dt*8);yaw+=(targetYaw-yaw)*blend;pitch+=(targetPitch-pitch)*blend;radius+=(targetRadius-radius)*blend;focus.lerp(targetFocus,blend);
     const viewRadius=radius*Math.max(1,1.2/camera.aspect);
     camera.position.set(focus.x+Math.sin(yaw)*Math.cos(pitch)*viewRadius,focus.y+Math.sin(pitch)*viewRadius,focus.z+Math.cos(yaw)*Math.cos(pitch)*viewRadius);camera.lookAt(focus);pose(dt);renderer.render(scene,camera);
