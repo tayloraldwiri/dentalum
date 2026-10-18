@@ -91,12 +91,12 @@ function initialize() {
   const brush=new THREE.Group();const brushHead=new THREE.Mesh(new THREE.BoxGeometry(.35,.12,.22),new THREE.MeshStandardMaterial({color:0xb9d9c9,roughness:.4}));brush.add(brushHead);
   for(let i=0;i<4;i++)for(let j=0;j<3;j++){const bristle=new THREE.Mesh(new THREE.CylinderGeometry(.012,.012,.14,5),new THREE.MeshStandardMaterial({color:0xf3f1df}));bristle.position.set((i-1.5)*.075,.11,(j-1)*.065);brush.add(bristle);}
   const handle=new THREE.Mesh(new THREE.CylinderGeometry(.04,.06,1.1,12),new THREE.MeshStandardMaterial({color:0x5c9e8a}));handle.rotation.z=Math.PI/2;handle.position.x=.65;brush.add(handle);model.add(brush);brush.visible=false;
-  let selected=records.find(t=>t.number===44), hovered=null, treatment='implant', progress=0, playing=false, currentStep=-1, visible=false, contextLost=false;
+  let selected=records.find(t=>t.number===44), hovered=null, treatment='implant', progress=0, playing=false, currentStep=-1, visible=false, animationVisible=false, contextLost=false;
   let yaw=.15,pitch=.16,radius=8.4,targetYaw=yaw,targetPitch=pitch,targetRadius=radius;
   const focus=new THREE.Vector3(0,0,.7),targetFocus=focus.clone(),raycaster=new THREE.Raycaster(),pointer=new THREE.Vector2();
   const clamp=THREE.MathUtils.clamp, smooth=t=>{t=clamp(t,0,1);return t*t*(3-2*t);};
   const stageSpan=(p,a,b)=>smooth((p-a)/(b-a));
-  function setPlaying(value){playing=value;$('#mouth-play').replaceChildren(document.createTextNode(value?'Pausa animation Ⅱ':'Spela animation ▷'));$('#mouth-play').setAttribute('aria-pressed',String(value));}
+  function setPlaying(value){playing=value;$('#mouth-play').replaceChildren(document.createTextNode(value?'Pausa animation Ⅱ':'Spela animation ▷'));$('#mouth-play').setAttribute('aria-pressed',String(value));const viewPlay=$('#mouth-view-play');viewPlay.textContent=value?'Ⅱ':'▷';viewPlay.setAttribute('aria-pressed',String(value));viewPlay.setAttribute('aria-label',value?'Pausa animation':'Spela animation');viewPlay.title=value?'Pausa animation':'Spela animation';}
   function updateCopy(){
     const data=treatments[treatment],step=Math.min(3,Math.floor(progress*4));
     if(step!==currentStep){currentStep=step;$('#mouth-step-number').textContent=`0${step+1} / 04`;$('#mouth-step-title').textContent=data.steps[step][0];$('#mouth-step-description').textContent=data.steps[step][1];}
@@ -109,7 +109,7 @@ function initialize() {
     if(treatment==='bridge'&&(record.index===0||record.index===15))record=records.find(r=>r.upper===record.upper&&r.index===(record.index===0?1:14));
     hovered=null;selected=record;$('#mouth-tooth').value=String(record.number);$('#mouth-tooth-label').textContent=`Tand ${record.number}`;
     targetFocus.copy(record.base).multiplyScalar(.28);targetFocus.y=0;targetFocus.z=Math.max(.6,targetFocus.z);
-    targetYaw=clamp(record.base.x*.12,-.5,.5);targetPitch=.2;targetRadius=7.9;progress=0;currentStep=-1;setPlaying(false);updateCopy();
+    targetYaw=clamp(record.base.x*.12,-.5,.5);targetPitch=.2;targetRadius=7.9;progress=0;currentStep=-1;setPlaying(!reducedMotion.matches);updateCopy();
   }
   function setTreatment(key){
     if(!treatments[key])return;
@@ -121,8 +121,8 @@ function initialize() {
   }
   for(const button of root.querySelectorAll('.mouth-tabs button'))button.addEventListener('click',()=>setTreatment(button.dataset.treatment));
   $('#mouth-tooth').addEventListener('change',e=>setSelected(records.find(r=>r.number===Number(e.target.value))));
-  $('#mouth-play').addEventListener('click',()=>{if(progress>=1)progress=0;setPlaying(!playing);updateCopy();});
-  $('#mouth-replay').addEventListener('click',()=>{progress=0;currentStep=-1;setPlaying(false);updateCopy();});
+  for(const button of [$('#mouth-play'),$('#mouth-view-play')])button.addEventListener('click',()=>{if(progress>=1)progress=0;setPlaying(!playing);updateCopy();});
+  $('#mouth-replay').addEventListener('click',()=>{progress=0;currentStep=-1;setPlaying(true);updateCopy();});
   $('#mouth-progress').addEventListener('input',e=>{progress=Number(e.target.value)/100;setPlaying(false);updateCopy();});
   function resetView(){targetYaw=.15;targetPitch=.16;targetRadius=8.4;targetFocus.set(0,0,.7);}
   for(const button of root.querySelectorAll('[data-view]'))button.addEventListener('click',()=>{const action=button.dataset.view;if(action==='left')targetYaw-=.3;if(action==='right')targetYaw+=.3;if(action==='in')targetRadius=clamp(targetRadius-.7,5,12);if(action==='out')targetRadius=clamp(targetRadius+.7,5,12);if(action==='reset')resetView();});
@@ -142,6 +142,9 @@ function initialize() {
   function resize(){const rect=$('#mouth-viewport').getBoundingClientRect();if(!rect.width||!rect.height)return;renderer.setSize(rect.width,rect.height,false);camera.aspect=rect.width/rect.height;camera.updateProjectionMatrix();}
   new ResizeObserver(resize).observe($('#mouth-viewport'));
   new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;},{rootMargin:'100px'}).observe(root);
+  // Keep the full demonstration for when the model is actually on screen,
+  // including after a selection made in the controls below it on mobile.
+  new IntersectionObserver(entries=>{animationVisible=entries[0].isIntersecting&&entries[0].intersectionRatio>=.5;},{threshold:[0,.5]}).observe(canvas);
   document.addEventListener('visibilitychange',()=>{if(document.hidden)setPlaying(false);});
   canvas.addEventListener('webglcontextlost',event=>{event.preventDefault();contextLost=true;showFallback('3D-vyn avbröts. Ladda om sidan för att försöka igen, eller läs om behandlingarna nedan.');});
   reducedMotion.addEventListener('change',()=>setPlaying(false));
@@ -176,7 +179,7 @@ function initialize() {
     if(contextLost)return;
     animationFrame=requestAnimationFrame(frame);const dt=Math.min(.05,(time-lastTime)/1000||.016);lastTime=time;
     if(!visible||document.hidden)return;
-    if(playing){progress=Math.min(1,progress+dt/14);if(progress===1)setPlaying(false);updateCopy();}
+    if(playing&&animationVisible){progress=Math.min(1,progress+dt/14);if(progress===1)setPlaying(false);updateCopy();}
     const blend=reducedMotion.matches?1:1-Math.exp(-dt*8);yaw+=(targetYaw-yaw)*blend;pitch+=(targetPitch-pitch)*blend;radius+=(targetRadius-radius)*blend;focus.lerp(targetFocus,blend);
     const viewRadius=radius*Math.max(1,1.2/camera.aspect);
     camera.position.set(focus.x+Math.sin(yaw)*Math.cos(pitch)*viewRadius,focus.y+Math.sin(pitch)*viewRadius,focus.z+Math.cos(yaw)*Math.cos(pitch)*viewRadius);camera.lookAt(focus);pose(dt);renderer.render(scene,camera);

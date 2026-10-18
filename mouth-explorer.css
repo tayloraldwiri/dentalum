@@ -23,7 +23,7 @@
 .mouth-fallback .planner-map-word { fill: var(--muted); font-size: 12px; }
 .mouth-fallback p { font-size: 12px; }
 .mouth-drag-hint { position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; color: var(--muted); font-size: 10px; pointer-events: none; }
-.mouth-toolbar { display: flex; justify-content: space-between; gap: 10px; padding: 16px 24px; }
+.mouth-toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; padding: 16px 24px; }
 .mouth-toolbar>div { display: flex; gap: 6px; }
 .mouth-toolbar button { min-width: 40px; height: 40px; padding: 0 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); font-size: 16px; }
 .mouth-toolbar button[data-view=reset] { font-size: 10px; }
@@ -71,4 +71,9 @@
   .mouth-toolbar { padding-inline: 18px; }
   .mouth-section { padding-top: 45px; }
   .mouth-bottom { padding: 18px 22px; }
+}
+
+@media (max-width: 700px) {
+  .mouth-toolbar button[data-view=reset] { font-size: 0; }
+  .mouth-toolbar button[data-view=reset]::before { content: "↺"; font-size: 16px; }
 }
