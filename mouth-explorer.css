@@ -1,0 +1,74 @@
+.mouth-section { padding-top: 65px; }
+.mouth-explorer { overflow: hidden; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; }
+.mouth-topline { display: flex; justify-content: space-between; gap: 15px; padding: 22px 28px; border-bottom: 1px solid var(--line); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.mouth-topline>span:first-child { color: var(--ink); }
+.mouth-topline i { display: inline-block; width: 6px; height: 6px; margin-right: 9px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 0 4px var(--soft); }
+.mouth-tabs { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); padding: 14px; gap: 7px; border-bottom: 1px solid var(--line); }
+.mouth-tabs button { display: flex; align-items: center; justify-content: center; gap: 14px; padding: 16px 10px; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; color: var(--muted); font-size: 10px; }
+.mouth-tabs button span { font-size: 13px; font-weight: 500; color: var(--ink); }
+.mouth-tabs button:hover { background: var(--soft); border-color: var(--accent); }
+.mouth-tabs button[aria-pressed=true] { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+.mouth-tabs button[aria-pressed=true] span { color: inherit; }
+.mouth-layout { display: grid; grid-template-columns: minmax(0,1.5fr) minmax(300px,1fr); }
+.mouth-stage { min-width: 0; background-color: var(--bg); background-image: radial-gradient(var(--line) .8px,transparent .8px); background-size: 22px 22px; display: flex; flex-direction: column; }
+.mouth-stage-label { display: flex; justify-content: space-between; padding: 24px 28px 0; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.mouth-viewport { position: relative; width: 100%; height: 420px; flex: 1; min-height: 330px; }
+#mouth-canvas { display: block; width: 100%; height: 100%; touch-action: pan-y; cursor: grab; }
+#mouth-canvas:active { cursor: grabbing; }
+.mouth-fallback { max-width: 340px; margin: 25px auto; padding: 20px; text-align: center; }
+.mouth-fallback svg { width: 100%; max-height: 260px; }
+.mouth-fallback .planner-orbit { fill: none; stroke: var(--line); stroke-dasharray: 3 7; }
+.mouth-fallback .planner-crosshair { stroke: var(--muted); }
+.mouth-fallback .planner-tooth { fill: var(--surface); stroke: var(--muted); }
+.mouth-fallback .planner-map-word { fill: var(--muted); font-size: 12px; }
+.mouth-fallback p { font-size: 12px; }
+.mouth-drag-hint { position: absolute; bottom: 10px; left: 0; right: 0; text-align: center; color: var(--muted); font-size: 10px; pointer-events: none; }
+.mouth-toolbar { display: flex; justify-content: space-between; gap: 10px; padding: 16px 24px; }
+.mouth-toolbar>div { display: flex; gap: 6px; }
+.mouth-toolbar button { min-width: 40px; height: 40px; padding: 0 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); font-size: 16px; }
+.mouth-toolbar button[data-view=reset] { font-size: 10px; }
+.mouth-toolbar button:hover { background: var(--soft); border-color: var(--accent); }
+.mouth-legend { display: flex; justify-content: center; gap: 18px; flex-wrap: wrap; padding: 8px 20px 24px; color: var(--muted); font-size: 9px; }
+.mouth-legend span { display: flex; gap: 6px; align-items: center; }
+.mouth-legend i { width: 7px; height: 7px; border-radius: 50%; }
+.legend-active { background: #58ac91; }
+.legend-hover { background: #cfac5b; }
+.mouth-information { padding: 35px; border-left: 1px solid var(--line); }
+.mouth-information .eyebrow { font-size: 9px; color: var(--muted); margin-bottom: 16px; }
+.mouth-information h3 { font-size: clamp(28px,2.7vw,39px); margin-bottom: 17px; }
+.mouth-information>p { font-size: 12px; line-height: 1.8; }
+.mouth-select-label { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-block: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+#mouth-tooth { max-width: 140px; padding: 7px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 5px; font-size: 12px; }
+.mouth-step { padding: 22px 0 12px; min-height: 140px; }
+.mouth-step>span { color: var(--muted); font-size: 10px; letter-spacing: .12em; }
+.mouth-step h4 { margin: 8px 0; font-size: 21px; letter-spacing: -.025em; }
+.mouth-step p { font-size: 11px; line-height: 1.7; margin: 0; }
+.mouth-scrub-label { display: flex; justify-content: space-between; color: var(--muted); font-size: 10px; }
+#mouth-progress { display: block; width: 100%; margin: 12px 0 20px; cursor: pointer; accent-color: var(--accent); }
+.mouth-playback { display: flex; gap: 8px; }
+.mouth-playback .button { flex: 1; min-height: 44px; padding: 11px 12px; font-size: 11px; gap: 10px; }
+.mouth-treatment-link { display: flex; justify-content: space-between; border-bottom: 1px solid var(--line); padding: 20px 0 12px; margin-top: 10px; font-size: 12px; }
+.mouth-information>.text-link { margin-top: 10px; font-size: 11px; }
+.mouth-bottom { border-top: 1px solid var(--line); background: var(--bg); padding: 20px 28px; }
+.mouth-bottom p { margin: 0; font-size: 10px; max-width: 900px; }
+.mouth-fallback-links { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 12px; font-size: 11px; text-decoration: underline; text-underline-offset: 3px; }
+.mouth-ready .mouth-fallback-links { display: none; }
+@media (max-width: 1000px) {
+  .mouth-layout { grid-template-columns: minmax(0,1.2fr) minmax(280px,1fr); }
+  .mouth-information { padding: 26px; }
+  .mouth-tabs button { gap: 7px; }
+}
+@media (max-width: 700px) {
+  .mouth-layout { grid-template-columns: 1fr; }
+  .mouth-information { border-left: 0; border-top: 1px solid var(--line); }
+  .mouth-tabs { display: flex; overflow-x: auto; scroll-snap-type: x proximity; }
+  .mouth-tabs button { flex: 0 0 auto; padding: 13px 15px; scroll-snap-align: start; }
+  .mouth-tabs button span { font-size: 12px; }
+  .mouth-topline { padding: 18px 20px; font-size: 9px; }
+  .mouth-topline>span:last-child { display: none; }
+  .mouth-viewport { height: 330px; flex: auto; }
+  .mouth-stage-label { padding: 20px 20px 0; font-size: 9px; }
+  .mouth-toolbar { padding-inline: 18px; }
+  .mouth-section { padding-top: 45px; }
+  .mouth-bottom { padding: 18px 22px; }
+}
